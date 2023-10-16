@@ -28,7 +28,7 @@ nav {
 }
 .dropdown:hover .lang-options a{
   display:block;
-  background-color:light-gray;
+  background-color:blue;
 }
 .dropdown:hover .lang-options a:hover{
   background-color:gray;
