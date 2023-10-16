@@ -1,5 +1,16 @@
+header {
+  font-size: 1em;
+}
 .flexbox{
-  
+  height:100%;
+  width:100%;
+  float:left;
+  justify-content:space-around;
+  display:flex;
+  flex-direction:row;
+}
+nav {
+  font-size: 100%;
 }
 .dropdown{
   overflow:hidden;
