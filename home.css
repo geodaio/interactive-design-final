@@ -1,3 +1,13 @@
-.lang-content {
+.flexbox{
   
 }
+.dropdown{
+  overflow:hidden;
+}
+.lang-options {
+  display:hidden;
+}
+.dropdown:hover .lang-options{
+  display:block;
+}
+
