@@ -1,5 +1,9 @@
 header {
   font-size: 1em;
+  float:left;
+  margin:auto;
+  text-align:center;
+  width:100%;
 }
 .flexbox{
   height:100%;
