@@ -6,7 +6,6 @@ header {
   width:100%;
 }
 header img {
-  float:left;
   width:30%;
 }
 .flexbox {
@@ -22,15 +21,18 @@ nav {
 }
 .dropdown {
   overflow:hidden;
+  position:relative;
+  display:inline-block;
 }
 .lang-options {
   display:none;
-  background-color:blue;
+  position:absolute;
+  background-color:Gainsboro;
 }
 .dropdown:hover .lang-options{
   display:block;
 }
 .lang-options a:hover{
-  background-color:gray;
+  background-color:DarkGray;
 }
 
