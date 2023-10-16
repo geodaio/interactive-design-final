@@ -7,6 +7,8 @@ header {
 }
 header img {
   width:30%;
+  float:left;
+  margin:10%;
 }
 .flexbox {
   height:100%;
@@ -24,11 +26,14 @@ header img {
   display:flex;
   flex-direction:column;
 }
-nav {
+nav .header-left a{
   font-size: 100%;
+  padding:5%;
 }
+
 .dropdown {
   overflow:hidden;
+  width:100%;
 }
 .header-left {
   width: 70%;
