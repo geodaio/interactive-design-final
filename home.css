@@ -16,12 +16,25 @@ header img {
   display:flex;
   flex-direction:row;
 }
+.flexbox-column {
+  height:100%;
+  width:100%;
+  float:left;
+  justify-content:space-around;
+  display:flex;
+  flex-direction:column;
+}
 nav {
   font-size: 100%;
 }
 .dropdown {
   overflow:hidden;
-  flex-direction:column;
+}
+.header-left {
+  width: 70%;
+}
+.header-right{
+  width:30%;
 }
 .lang-options {
   display:none;
