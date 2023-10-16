@@ -1,0 +1,28 @@
+header {
+  font-size: 1em;
+  float:left;
+  margin:auto;
+  text-align:center;
+  width:100%;
+}
+.flexbox{
+  height:100%;
+  width:100%;
+  float:left;
+  justify-content:space-around;
+  display:flex;
+  flex-direction:row;
+}
+nav {
+  font-size: 100%;
+}
+.dropdown{
+  overflow:hidden;
+}
+.lang-options {
+  display:hidden;
+}
+.dropdown:hover .lang-options{
+  display:block;
+}
+
