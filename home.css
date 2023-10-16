@@ -21,12 +21,10 @@ nav {
 }
 .dropdown {
   overflow:hidden;
-  position:relative;
-  display:inline-block;
+  flex-direction:column;
 }
 .lang-options {
   display:none;
-  position:absolute;
   background-color:Gainsboro;
 }
 .dropdown:hover .lang-options{
