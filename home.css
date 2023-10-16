@@ -5,7 +5,11 @@ header {
   text-align:center;
   width:100%;
 }
-.flexbox{
+header img {
+  float:left;
+  width:100%;
+}
+.flexbox {
   height:100%;
   width:100%;
   float:left;
@@ -16,14 +20,18 @@ header {
 nav {
   font-size: 100%;
 }
-.dropdown{
+.dropdown {
   overflow:hidden;
 }
 .lang-options {
-  display:hidden;
+  display:none;
 }
-.dropdown:hover .lang-options{
+.dropdown:hover .lang-options a{
   display:block;
+  background-color:light-gray;
+}
+.dropdown:hover .lang-options a:hover{
+  background-color:gray;
 }
 
 
