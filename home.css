@@ -50,7 +50,7 @@ nav .header-left a{
 }
 .lang-options {
   display:none;
-  width:inherit;
+  flex-direction:column;
   background-color:Gainsboro;
   z-index:1;
 }
