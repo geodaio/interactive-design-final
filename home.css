@@ -109,6 +109,14 @@ nav .header-left a{
 #get-started {
   width:12.5%;
 }
+#decor-1 {
+  position:relative;
+}
+#dotted-lines {
+  border-style:dashed;
+  border-color: #293730;
+  position-relative:
+}
 
 
 body {
@@ -125,4 +133,7 @@ p {
 a, button {
   font-size:1.2em;
   font-family: 'PT Serif', serif;
+}
+button {
+  border-radius:5px;
 }
