@@ -88,13 +88,20 @@ nav .header-left a{
   display:inherit;
 }
 #img-home-1 {
-  width:50%;
+  width:60%;
+  height:30%;
   margin:auto;
+  position:relative;
+  bottom:10%;
+  left:20%;
 }
 #img-home-2 {
-  width:50%;
+  width:60%;
+  height:30%;
   margin:auto;
   z-index:1;
+  position:relative;
+  right:80%;
 }
 #get-started {
   width:12.5%;
