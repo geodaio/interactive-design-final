@@ -78,6 +78,18 @@ nav .header-left a{
   height:50%;
   margin:auto;
 }
+.sign-in {
+  background-color:#FDF8DC;
+  border-width: 2px;
+  border-color:#293730;
+  border-style:solid;
+}
+.sign-up {
+  background-color:#293730;
+  border-width: 2px;
+  border-color:#293730;
+  border-style:solid;
+}
 .dropdown-button p{
   margin:auto;
 }
@@ -85,6 +97,7 @@ nav .header-left a{
   width:100%;
   height:100%;
   margin:auto;
+  background-color:#293730;
 }
 
 .intro-sect-left {
