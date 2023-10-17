@@ -32,11 +32,14 @@ nav .header-left a{
   padding-bottom:0px;
   padding-top:0px;
 }
-
+.dropdown-button {
+  width:inherit;
+}
 .dropdown {
   overflow:hidden;
   display:inherit;
   flex-direction:column;
+  width:33%;
 }
 .header-left {
   width: 70%;
@@ -53,6 +56,7 @@ nav .header-left a{
   flex-direction:column;
   background-color:Gainsboro;
   z-index:1;
+  width:inherit;
 }
 .lang-options a{
  display:flex;
@@ -62,6 +66,9 @@ nav .header-left a{
 }
 .lang-options a:hover{
   background-color:DarkGray;
+}
+.sign-in .sign-up {
+  width:33%;
 }
 
 
