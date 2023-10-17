@@ -33,13 +33,14 @@ nav .header-left a{
   padding-top:0px;
 }
 .dropdown-button {
-  width:inherit;
+  width:100%;
 }
 .dropdown {
   overflow:hidden;
   display:inherit;
   flex-direction:column;
   width:33%;
+  position:relative;
 }
 .header-left {
   width: 70%;
@@ -57,6 +58,7 @@ nav .header-left a{
   background-color:Gainsboro;
   z-index:1;
   width:inherit;
+  position:absolute;
 }
 .lang-options a{
  display:flex;
