@@ -147,7 +147,7 @@ nav .header-left a{
   border-left-color:black;
   border-left-style:solid;
 }
-#img-home-1 {
+#img-home-alt {
   width:60%;
   height:30%;
   margin:auto;
@@ -171,6 +171,9 @@ nav .header-left a{
   border-color:#293730;
   border-style:solid;
   color:#FEFCF8;
+}
+#img-home-1 {
+  fill:#FEFCF8;
 }
 
 
