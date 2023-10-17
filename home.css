@@ -36,7 +36,6 @@ nav .header-left a{
   width:100%;
 }
 .dropdown {
-  overflow:hidden;
   display:inherit;
   flex-direction:column;
   width:33%;
