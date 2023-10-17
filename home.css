@@ -108,8 +108,7 @@ p {
   font-size:1em;
   font-family: 'PT Serif', serif;
 }
-a {
+a, button {
   font-size:1.2em;
   font-family: 'PT Serif', serif;
-  font-weight:bold;
 }
