@@ -84,12 +84,14 @@ nav .header-left a{
   float:right;
 }
 #img-home-1{
+  max-width:100%;
   margin:auto;
   position:absolute;
   top:2%;
   left:5%;
 }
 #img-home-2{
+  max-width:100%;
   margin:auto;
   z-index:1;
   position:absolute;
