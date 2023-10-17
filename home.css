@@ -15,7 +15,6 @@ header img {
 .flexbox {
   height:100%;
   width:100%;
-  float:left;
   justify-content:space-around;
   display:flex;
   flex-direction:row;
@@ -23,35 +22,40 @@ header img {
 .flexbox-column {
   height:100%;
   width:100%;
-  float:left;
   justify-content:space-around;
   display:flex;
   flex-direction:column;
 }
 nav .header-left a{
   font-size: 100%;
-  padding:5%;
+  padding:2%;
+  padding-bottom:0px;
+  padding-top:0px;
 }
 
 .dropdown {
   overflow:hidden;
-  position:relative;
-  display:inline-block;
+  display:inherit;
+  flex-direction:inherit;
 }
 .header-left {
   width: 70%;
+  display:inherit;
+  flex-direction:inherit;
 }
 .header-right{
   width:30%;
+  display:inherit;
+  flex-direction:inherit;
 }
 .lang-options {
   display:none;
-  position:absolute;
   width:inherit;
   background-color:Gainsboro;
+  z-index:1;
 }
 .lang-options a{
- display:block;
+ display:flex;
 }
 .dropdown:hover .lang-options{
   display:block;
