@@ -177,7 +177,9 @@ nav .header-left a{
   stroke:#293730;
   stroke-width:2px;
 }
-
+#rect-home-1 {
+    transform:translate(-40%, 40%);
+}
 
 
 body {
@@ -203,5 +205,9 @@ button {
   font-size:1em;
   font-family: 'PT Serif', serif;
 }
+.svg-far{
+    overflow:visible;
+}
+
 
 
