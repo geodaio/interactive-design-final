@@ -1,4 +1,4 @@
 function changeLang(id) {
-  console.log(id);
+  alert(id);
   document.getElementById("lang").innerHTML = id;
 }
