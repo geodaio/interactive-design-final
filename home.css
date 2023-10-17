@@ -98,11 +98,16 @@ nav .header-left a{
   position:absolute;
   top:4%;
 }
-h1{
+h1 {
   font-size:4.75em;
   font-family:"Lora", serif;
 }
-p{
+p {
   font-size:1em;
   font-family: 'PT Serif', serif;
+}
+a {
+  font-size:1.2em;
+  font-family: 'PT Serif', serif;
+  font-weight:bold;
 }
