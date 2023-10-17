@@ -58,12 +58,13 @@ nav .header-left a{
   z-index:1;
   width:100%;
   position:absolute;
+  box-shadow:0px 5px 7px 0px gray;
 }
 .lang-options a{
   display:flex;
 }
 .dropdown:hover .lang-options{
-  display:flex;
+  display:block;
 }
 .lang-options a:hover{
   background-color:DarkGray;
