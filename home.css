@@ -74,5 +74,24 @@ nav .header-left a{
   width:33%;
   height:100%;
 }
-
-
+.intro-sect-left {
+  width:60%;
+  float:left;
+  padding:0px 200px 0px 50px;
+}
+.intro-sect-right {
+  width:40%;
+  float:right;
+}
+#img-home-1{
+  margin:auto;
+  position:absolute;
+  top:2%;
+  left:5%;
+}
+#img-home-2{
+  margin:auto;
+  z-index:1;
+  position:absolute;
+  top:4%;
+}
