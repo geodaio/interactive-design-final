@@ -79,25 +79,27 @@ nav .header-left a{
   width:60%;
   float:left;
   padding:0px 200px 0px 50px;
+  display:inherit;
 }
 .intro-sect-right {
   width:40%;
   float:right;
+  display:inherit;
 }
 #img-home-1{
   max-width:100%;
+  width:50%;
   margin:auto;
   position:absolute;
-  top:2%;
-  left:5%;
 }
 #img-home-2{
   max-width:100%;
+  width:50%;
   margin:auto;
   z-index:1;
   position:absolute;
-  top:4%;
 }
+
 h1 {
   font-size:4.75em;
   font-family:"Lora", serif;
