@@ -172,8 +172,10 @@ nav .header-left a{
   border-style:solid;
   color:#FEFCF8;
 }
-#img-home-1 {
+#rect-home-1, #rect-home-2 {
   fill:#FEFCF8;
+  stroke:#293730;
+  stroke-width:2px;
 }
 
 
