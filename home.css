@@ -57,14 +57,14 @@ nav .header-left a{
   flex-direction:column;
   background-color:Gainsboro;
   z-index:1;
-  width:inherit;
+  width:100%;
   position:absolute;
 }
 .lang-options a{
- display:flex;
+  display:flex;
 }
 .dropdown:hover .lang-options{
-  display:block;
+  display:flex;
 }
 .lang-options a:hover{
   background-color:DarkGray;
