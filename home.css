@@ -9,6 +9,7 @@ header img {
   width:100%;
   float:left;
   margin:10%;
+  margin-left:0px;
   margin-top:0px;
   margin-bottom:0px;
 }
@@ -179,6 +180,30 @@ nav .header-left a{
 }
 #line-home-1 {
   transform:translate(-40%);
+}
+
+
+#rect-home-3 {
+  fill:#FEFCF8;
+  stroke:#293730;
+  stroke-width:2px;
+}
+#line-home-3 {
+  stroke:black;
+}
+.detail-sect-left {
+  width:50%;
+  float:left;
+  display:inherit;
+  background-color: #ADB499;
+}
+.detail-sect-right {
+  width:50%;
+  float:right;
+  display:inherit;
+  padding:0px 100px 0px 50px;
+  margin:4%;
+  background-color: #ADB499;
 }
 
 body {
