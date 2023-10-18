@@ -186,7 +186,7 @@ nav .header-left a{
 .scrolling_text {
   background: #293730;
     width: 100%;
-  padding: 24px;
+    padding: 24px;
     overflow: hidden;
     display: flex;
     white-space: nowrap;
@@ -265,6 +265,13 @@ button {
 }
 
 
-
+@keyframes animate_text {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(-100%, 0, 0);
+    }
+}
 
 
