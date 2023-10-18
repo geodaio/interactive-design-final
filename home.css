@@ -147,21 +147,25 @@ nav .header-left a{
   border-left-color:black;
   border-left-style:solid;
 }
-#img-home-alt {
-  width:60%;
-  height:30%;
-  margin:auto;
-  position:relative;
-  bottom:10%;
-  left:20%;
+#img-home-1 {
+    position:absolute;
+    height:150px;
+    width:250px;
+    border-radius:20px;
+    border-width: 2px;
+    border-color:#293730;
+    border-style:solid;
+    transform:translate(47%, 135%);
 }
 #img-home-2 {
-  width:60%;
-  height:30%;
-  margin:auto;
-  z-index:1;
-  position:relative;
-  right:80%;
+    position:absolute;
+    height:150px;
+    width:250px;
+    border-radius:20px;
+    border-width: 2px;
+    border-color:#293730;
+    border-style:solid;
+    transform:translate(-27%, 230%);
 }
 #get-started {
   width:18%;
