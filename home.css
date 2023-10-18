@@ -116,17 +116,15 @@ nav .header-left a{
   font-size:.9em;
 }
 #dropdown-img {
-  max-width:40%;
+  max-width:20%;
   height:100%;
   display:inherit;
   position:relative;
-  left:3%;
 }
 #lang{
   max-width:60%;
   display:inherit;
   position:relative;
-  right:16%;
 }
 
 
