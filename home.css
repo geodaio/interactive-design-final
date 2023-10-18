@@ -202,8 +202,19 @@ nav .header-left a{
   float:right;
   display:inherit;
   padding:0px 100px 0px 50px;
-  margin:4%;
+  padding:4%;
+  flex-direction:column;
   background-color: #ADB499;
+}
+.detail-sect-right button{
+  width:50%;
+  height:100%;
+  margin:auto;
+  background-color:#ADB499;
+  border-color:#ADB499;
+  border-style:solid;
+  font-size:.9em;
+  text-align:left;
 }
 
 body {
@@ -232,6 +243,8 @@ button {
 .svg-close{
     overflow:visible;
 }
+
+
 
 
 
