@@ -148,24 +148,13 @@ nav .header-left a{
   border-left-style:solid;
 }
 #img-home-1 {
-    position:absolute;
-    height:150px;
-    width:250px;
-    border-radius:20px;
-    border-width: 2px;
-    border-color:#293730;
-    border-style:solid;
-    transform:translate(47%, 135%);
+    stroke:#293730;
+    stroke-width:2px;
+    transform:translate(-40%, 100%);
 }
 #img-home-2 {
-    position:absolute;
-    height:150px;
-    width:250px;
-    border-radius:20px;
-    border-width: 2px;
-    border-color:#293730;
-    border-style:solid;
-    transform:translate(-27%, 230%);
+    stroke:#293730;
+    stroke-width:2px;
 }
 #get-started {
   width:18%;
