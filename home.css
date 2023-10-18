@@ -180,7 +180,12 @@ nav .header-left a{
 #rect-home-1 {
     transform:translate(-40%, 100%);
 }
-
+#line-home-1, #line-home-2 {
+  stroke:black;
+}
+#line-home-1 {
+  transform:translate(-40%);
+}
 
 body {
   background-color: #FEFCF8;
