@@ -6,11 +6,14 @@ header {
   width:100%;
 }
 header img {
-  width:30%;
+  width:100%;
   float:left;
   margin:10%;
   margin-top:0px;
   margin-bottom:0px;
+}
+#header-logo {
+  max-width:10%;
 }
 .flexbox {
   height:100%;
