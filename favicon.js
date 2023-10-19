@@ -1,4 +1,4 @@
-const favicon = document.getElementByID("favicon");
+const favicon = document.getElementById("favicon");
 const mode = window.matchMedia("(prefers-color-scheme: dark)");
 
 mode.addEventListener("change", (event) => {
