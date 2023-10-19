@@ -7,12 +7,13 @@ console.log(mode);
 //Entry
 if (window.matchMedia("(prefers-color-scheme: dark)")) {
   favicon.setAttribute("href", "favicon-dark.svg");
+  console.log("test");
 }
 else {
   favicon.setAttribute("href", "favicon-light.svg");
 }
 
-console.log(mode);
+console.log(favicon);
 //Event listener for changes
 mode.addEventListener("change", (event) => {
   if (event.matches) {
