@@ -5,10 +5,10 @@ console.log(favicon);
 console.log(mode);
 
 //Entry
-if window.matchMedia("(prefers-color-scheme: dark)") {
+if (window.matchMedia("(prefers-color-scheme: dark)")) {
    favicon.setAttribute("href", "favicon-dark.svg");
  }
- else if window.matchMedia("(prefers-color-scheme: light)") {
+ else if (window.matchMedia("(prefers-color-scheme: light)")) {
    favicon.setAttribute("href", "favicon-light.svg");
  }
 
@@ -24,5 +24,3 @@ mode.addEventListener("change", (event) => {
     console.log("lightmode");
   }
 });
-
-
