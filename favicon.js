@@ -5,7 +5,7 @@ console.log(favicon);
 console.log(mode);
 
 //Entry
-if (localStorage.getItem("theme") == "dark" {
+if (localStorage.getItem("theme")) == "dark" {
   favicon.setAttribute("href", "favicon-dark.svg");
 }
 else {
