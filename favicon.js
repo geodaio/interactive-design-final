@@ -1,17 +1,15 @@
 const favicon = document.getElementById("favicon");
-const mode = localStorage.getItem("theme");
-  
-console.log(favicon);
-console.log(mode);
+const mode = window.matchMedia("(prefers-color-scheme: dark)");
 
-//Entry
-if (localStorage.getItem("theme") == "dark") {
-  favicon.setAttribute("href", "favicon-dark.svg");
-}
+ //Entry
+if (window.matchMedia("(prefers-color-scheme: dark)")) {
+   favicon.setAttribute("href", "favicon-dark.svg");
+ }
 else {
-  favicon.setAttribute("href", "favicon-light.svg");
-}
+   favicon.setAttribute("href", "favicon-light.svg");
+ }
 
+console.log(mode);
 console.log(favicon);
 //Event listener for changes
 mode.addEventListener("change", (event) => {
