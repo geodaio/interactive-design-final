@@ -1,13 +1,12 @@
 const favicon = document.getElementById("favicon");
-const mode = window.matchMedia("(prefers-color-scheme: dark)");
+const mode = localStorage.getItem("theme");
   
 console.log(favicon);
 console.log(mode);
 
 //Entry
-if (window.matchMedia("(prefers-color-scheme: dark)")) {
+if (localStorage.getItem("theme") == "dark" {
   favicon.setAttribute("href", "favicon-dark.svg");
-  console.log("test");
 }
 else {
   favicon.setAttribute("href", "favicon-light.svg");
