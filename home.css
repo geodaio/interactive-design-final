@@ -248,6 +248,7 @@ nav .header-left a{
 
 body {
   background-color: #FEFCF8;
+  margin:0px;
 }
 h1, h2, p, a, button {
   color: #293730;
