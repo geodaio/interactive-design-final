@@ -54,6 +54,7 @@ nav .header-left a{
   padding:0px 100px 0px 50px;
   margin-right:4%;
   margin-left:4%;
+  margin-top:1%;
 }
 .header-right{
   width:40%;
@@ -64,6 +65,8 @@ nav .header-left a{
   border-left-width: 2px;
   border-left-color:black;
   border-left-style:solid;
+  padding-right:1%;
+  padding-top:1%;
 }
 .lang-options {
   display:none;
@@ -148,6 +151,8 @@ nav .header-left a{
   border-left-width: 2px;
   border-left-color:black;
   border-left-style:solid;
+  padding-right:1%;
+  padding-top:1%;
 }
 #img-home-1 {
     stroke:#293730;
@@ -212,6 +217,11 @@ nav .header-left a{
 }
 /*END KAT CODE*/
 
+.quote2{
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
 #rect-home-3 {
   fill:#FEFCF8;
   stroke:#293730;
@@ -245,6 +255,11 @@ nav .header-left a{
   font-size:.9em;
   text-align:left;
 }
+#learn-more-link{
+}
+#site-rules-link{
+}
+
 
 body {
   background-color: #FEFCF8;
@@ -283,5 +298,7 @@ button {
       transform: translate3d(-100%, 0, 0);
     }
 }
+
+
 
 
