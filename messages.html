@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    
+    <title>Home</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" id="favicon"/>
+    
+    <link rel="stylesheet" type="text/css" href="home.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=PT+Serif&display=swap" rel="stylesheet"> <!--Previous three links are links for Google Fonts-->
+</head>
+    <body>
+        <header>
+            <nav class="flexbox">
+                <div class="header-left">
+                    <img src="SNLogo.svg" alt="Logo Temp" id="header-logo">
+                    <a href="" title="Temp">How it Works</a>
+                    <a href="" title="Temp">Resources</a>
+                    <a href="" title="Temp">About Us</a>
+                </div>
+                <div class="header-right">
+                    <div class="dropdown">
+                        <button class="dropdown-button" id="lang"><img src="Globe_icon.svg" alt="ALTTEXT" id="dropdown-img">English</button>
+                        <div class="lang-options">
+                            <a href="" title="English" id="English" onclick="changeLang(this.id)">English</a>
+                            <a href="" title="Spanish" id="Spanish" onclick="changeLang(this.id)">Spanish</a>
+                            <a href="" title="French" id="French" onclick="changeLang(this.id)">French</a>
+                            <a href="" title="German" id="German" onclick="changeLang(this.id)">German</a>
+                            <a href="" title="Russian" id="Russian" onclick="changeLang(this.id)">Russian</a>
+                        </div>
+                    </div>
+                    <button class="sign-in" onclick="">Sign In</button>
+                    <button class="sign-up" onclick="">Sign Up</button>
+                </div>
+            </nav>
+        </header>
