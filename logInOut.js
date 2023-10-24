@@ -22,14 +22,14 @@ onload = function checkSign(){
   }
 };
 function signIn() {
-	storeCookies("loggedIn", "true");
 	window.location = "https://geodaio.github.io/interactive-design-final/index-login";
-	console.log("loggedin");
+	storeCookies("loggedIn", "true");
+	console.log(document.cookie);
 };
 function signOut() {
-	storeCookies("loggedIn", "false");
 	window.location = "https://geodaio.github.io/interactive-design-final";
-	console.log("loggedout");
+	storeCookies("loggedIn", "false");
+	console.log(document.cookie);
 };
 
 function toLogin() {
