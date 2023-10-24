@@ -31,3 +31,11 @@ function signOut() {
 	window.location = "https://geodaio.github.io/interactive-design-final";
 	console.log("loggedout");
 }
+
+function toLogin() {
+	window.location = "https://geodaio.github.io/interactive-design-final/login";
+}
+
+function backToHome() {
+	window.location = "https://geodaio.github.io/interactive-design-final";
+}
