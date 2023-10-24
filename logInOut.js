@@ -6,23 +6,25 @@ function storeCookies(name, value){
 }
 
 onload = function checkSign(){
-	console.log("test");
-  var allCookies = document.cookie;
-
-  var splitCookies = allCookies.split(";");
-
-  for (var c = 0; c<=splitCookies.length; c++){
-    var cleanCookie;
-    if (c != splitCookies.length){
-      cleanCookie = splitCookies[c].trim();
-    }
-    var cleanerCookie = cleanCookie.split("=");
-    console.log(cleanerCookie);
-    if (cleanerCookie[c].equalsIgnoringCase("true") == true) {
-        window.location.assign("https://geodaio.github.io/interactive-design-final/index-login");
-	console.log("loggedin2");
-    }
-  }
+	if (window.location.href != "https://geodaio.github.io/interactive-design-final/index-login") {
+		console.log("test");
+	  var allCookies = document.cookie;
+	
+	  var splitCookies = allCookies.split(";");
+	
+	  for (var c = 0; c<=splitCookies.length; c++){
+	    var cleanCookie;
+	    if (c != splitCookies.length){
+	      cleanCookie = splitCookies[c].trim();
+	    }
+	    var cleanerCookie = cleanCookie.split("=");
+	    console.log(cleanerCookie);
+	    if (cleanerCookie[c] === "true") {
+	        window.location.assign("https://geodaio.github.io/interactive-design-final/index-login");
+		console.log("loggedin2");-
+	    }
+	  }
+	}
 };
 function signIn() {
 	event.preventDefault();
