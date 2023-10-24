@@ -1,4 +1,4 @@
-function storeCookies (name, value){
+function storeCookies(name, value){
   var myDate = new Date();
 	myDate.setDate = myDate.getDate() + 31;
 	document.cookie=name+"="+value+"; expires="+myDate.toUTCString()+"; path=/";
