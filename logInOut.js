@@ -25,11 +25,9 @@ function signIn() {
 	storeCookies("loggedIn", "true");
 	window.location = "https://geodaio.github.io/interactive-design-final/index-login";
 	console.log("loggedin");
-	};
 }
 function signOut() {
 	storeCookies("loggedIn", "false");
 	window.location = "https://geodaio.github.io/interactive-design-final";
 	console.log("loggedout");
-	};
 }
