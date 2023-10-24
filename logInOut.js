@@ -21,14 +21,14 @@ onload = function checkSign(){
     }
   }
 };
-if (document.getElementById("sign-in") != null){
+if (document.getElementById("sign-in") != null && document.getElementById("sign-in").onclick){
 	document.getElementById("sign-in").onclick = function() {
 	storeCookies("loggedIn", "true");
 	window.location = "https://geodaio.github.io/interactive-design-final/index-login";
 	console.log("loggedin");
 	};
 }
-if (document.getElementById("log-out-header") != null){
+if (document.getElementById("log-out-header") != null && document.getElementById("log-out-header").onclick){
 	document.getElementById("log-out-header").onclick = function() {
 	storeCookies("loggedIn", "false");
 	window.location = "https://geodaio.github.io/interactive-design-final";
