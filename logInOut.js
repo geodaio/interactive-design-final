@@ -15,7 +15,7 @@ onload = function checkSign(){
     var cleanCookie = splitCookies[c].trim();
     var cleanerCookie = cleanCookie.split("=");
 		console.log(cleanerCookie);
-    if (cleanerCookie.equalsIgnoreCase("true")) {
+    if (cleanerCookie == "true") {
         window.location = "https://geodaio.github.io/interactive-design-final/index-login";
     }
   }
