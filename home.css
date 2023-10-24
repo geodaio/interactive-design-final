@@ -45,6 +45,8 @@ nav .header-left a{
   width:33%;
   height:50%;
   margin:auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .header-left {
   width:60%;
@@ -55,6 +57,7 @@ nav .header-left a{
   margin-right:4%;
   margin-left:4%;
   margin-top:1%;
+  height: 50%;
 }
 .header-right{
   width:40%;
@@ -67,6 +70,7 @@ nav .header-left a{
   border-left-style:solid;
   padding-right:1%;
   padding-top:1%;
+  height: 50%;
 }
 .lang-options {
   display:none;
@@ -178,7 +182,7 @@ nav .header-left a{
   stroke-width:2px;
 }
 #rect-home-1 {
-    transform:translate(-40%, 100%);
+    transform:translate(-40%, 19%);
 }
 #line-home-1, #line-home-2 {
   stroke:black;
