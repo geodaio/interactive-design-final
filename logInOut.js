@@ -8,7 +8,7 @@ document.getElementById("sign-in").onclick = function() {
 	storeCookies("loggedIn", "true");
   window.location = "https://geodaio.github.io/interactive-design-final/index-login";
 };
-document.getElementById("sign-out").onclick = function() {
+document.getElementById("log-out-header").onclick = function() {
   storeCookies("loggedIn", "false");
   window.location = "https://geodaio.github.io/interactive-design-final";
 };
