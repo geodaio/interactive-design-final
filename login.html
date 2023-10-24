@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        
+        <title>Home</title>
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" id="favicon"/>
+        
+        <link rel="stylesheet" type="text/css" href="home.css">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=PT+Serif&display=swap" rel="stylesheet"> <!--Previous three links are links for Google Fonts-->
+    </head>
+    <body>
+        <section id="login-sect">
+          <div class="flexbox-column">
+            <button class="" id="leave-login" onclick=backToHome()><img src="" alt="" title=""></button>
+            <h2>Login</h2>
+            <p>Sign in to continue access</p>
+            <form>
+              <label for="email">Email Address:</label><br>
+              <input type="email" id="email" name="email"><br>
+              <label for="password">Password:</label><br>
+              <input type="password" id="password" name="password">
+              <input type="submit" id="login-button" value="Login">
+            </form>
+            <button class="" id="forgot-password" onclick="">Forgot password?</button>
+            <button class="" id="google-log"><img src="" alt="" title="Sign in with Google"></button>
+            <button id="twitter-log"><img src="" alt="" title="Sign in with X (Formerly Twitter)"></button>
+            <button id="fb-log"><img src="" alt="" title="Sign in with Facebook"></button>
+          </div>
+        </section>
+        <script type="text/javascript" src="home.js"></script>
+        <script type="text/javascript" src="favicon.js"></script>
+        <script type="text/javascript" src="logInOut.js"></script>
+    </body>
+</html>
