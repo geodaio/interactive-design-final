@@ -14,18 +14,21 @@ onload = function checkSign(){
   for (var c = 0; c<splitCookies.length; c++){
     var cleanCookie = splitCookies[c].trim();
     var cleanerCookie = cleanCookie.split("=");
+		console.log(cleanerCookie);
     if (cleanerCookie.equalsIgnoreCase("true")) {
         window.location = "https://geodaio.github.io/interactive-design-final/index-login";
     }
   }
 };
-
-document.getElementById("sign-in").onclick = function() {
-	storeCookies("loggedIn", "true");
-  window.location = "https://geodaio.github.io/interactive-design-final/index-login";
-};
-document.getElementById("log-out-header").onclick = function() {
-  storeCookies("loggedIn", "false");
-  window.location = "https://geodaio.github.io/interactive-design-final";
-};
-
+if (document.getElementById("sign-in") != null){
+	document.getElementById("sign-in").onclick = function() {
+		storeCookies("loggedIn", "true");
+	  window.location = "https://geodaio.github.io/interactive-design-final/index-login";
+	};
+}
+if (document.getElementById("log-out-header") != null){
+	document.getElementById("log-out-header").onclick = function() {
+	  storeCookies("loggedIn", "false");
+	  window.location = "https://geodaio.github.io/interactive-design-final";
+	};
+}
