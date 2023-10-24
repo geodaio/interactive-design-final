@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    
+    <title>Home</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" id="favicon"/>
+    
+    <link rel="stylesheet" type="text/css" href="home.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=PT+Serif&display=swap" rel="stylesheet"> <!--Previous three links are links for Google Fonts-->
+</head>
+    <body>
+        <header id="header-in">
+            <nav class="flexbox">
+                <div class="header-left">
+                    <img src="SNLogo.svg" alt="Logo Temp" id="header-logo">
+                    <a href="" title="Temp">Home</a>
+                    <a href="" title="Temp">Study Hub</a>
+                    <a href="" title="Temp">About Us</a>
+                    <a href="" title="Temp">About Us</a>
+                </div>
+                <div class="header-right">
+                    <div class="dropdown">
+                        <button class="dropdown-button" id="lang"><img src="Globe_icon.svg" alt="ALTTEXT" id="dropdown-img">English</button>
+                        <div class="lang-options">
+                            <a href="" title="English" id="English" onclick="changeLang(this.id)">English</a>
+                            <a href="" title="Spanish" id="Spanish" onclick="changeLang(this.id)">Spanish</a>
+                            <a href="" title="French" id="French" onclick="changeLang(this.id)">French</a>
+                            <a href="" title="German" id="German" onclick="changeLang(this.id)">German</a>
+                            <a href="" title="Russian" id="Russian" onclick="changeLang(this.id)">Russian</a>
+                        </div>
+                    </div>
+                    <button class="notification-bell" id="notifications-header"></button>
+                    <div class="dropdown">
+                        <button class="dropdown-button" id="profile-header"><img src="Globe_icon.svg" alt="ALTTEXT" id="profile-pic-header"></button>
+                        <div class="lang-options">
+                            <a href="" title="" id="profile-drop-header" onclick="changeLang(this.id)">Profile</a>
+                            <a href="" title="" id="settings-header" onclick="changeLang(this.id)">Settings</a>
+                            <a href="" title="" id="log-out-header" onclick="changeLang(this.id)">Log Out</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="flexbox">
+            <section class="intro-sect-left">
+                <h1>The choice community for digital workers and nomads</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget lectus non neque volutpat congue ac at tortor. Vivamus cursus luctus diam ac sodales. Nullam eget neque enim. Maecenas finibus lectus a neque tincidunt cursus.</p>
+                <button id="get-started">Get Started</button>
+            </section>
+            <section class="intro-sect-right">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" class="svg-close">
+                  <g>
+                    <g id="computer-svg-2">
+                      <rect x="22%" y="20%" width="60%" height="28%" rx="20" id="rect-home-2"></rect>
+                      <clipPath id="clip1">
+                        <use xlink:href="#rect-home-2"/>
+                      </clipPath>
+                      <circle cx="65%" cy="22.8%" r="6" id="circle-home-2-1"></circle>
+                      <circle cx="70%" cy="22.8%" r="6" id="circle-home-2-2"></circle>
+                      <circle cx="75%" cy="22.8%" r="6" id="circle-home-2-3"></circle>
+                      <line x1="28%" y1="24.8%" x2="76%" y2="24.8%" id="line-home-2"></line>
+                      <image href="" x="22%" y="20%" width="50%" height="18%" id="img-home-1" clip-path="url(#clip1)">
+                    </g>
+                    <g id="computer-svg-1">
+                      <rect x="22%" y="20%" width="60%" height="28%" rx="20" id="rect-home-1"></rect>
+                      <clipPath id="clip2">
+                        <use xlink:href="#rect-home-1"/>
+                      </clipPath>
+                      <circle cx="25%" cy="42%" r="6" id="circle-home-1-1"></circle>
+                      <circle cx="30%" cy="42%" r="6" id="circle-home-1-2"></circle>
+                      <circle cx="35%" cy="42%" r="6" id="circle-home-1-3"></circle>
+                      <line x1="28%" y1="44%" x2="76%" y2="44%" id="line-home-1"></line>
+                      <image href="" x="22%" y="20%" width="50%" height="18%" id="img-home-2" clip-path="url(#clip2)">
+                    </g>
+                  </g>
+                </svg>
+            </section>
+        </div>
+        <section id="quote">
+            <div class="flexbox quote1">
+                <!--KAT CODE-->
+                <div class="row scrolling_text">
+                    <div class="text">
+                        <span>running text</span>
+                        <span>running text</span>
+                        <span>running text</span>
+                        <span>running text</span>
+                        <span>running text</span>
+                    </div>
+                    <div class="text">
+                        <span>running text</span>
+                        <span>running text</span>
+                        <span>running text</span>
+                        <span>running text</span>
+                        <span>running text</span>
+                    </div>
+                </div>
+            </div>
+                <!--END KAT CODE-->
+            <div class="flexbox quote2">
+                <h2 id="home-quote">"A place where you and others can start on a studying journey"</h2>
+            </div>
+            
+        </section>
+        <div class="flexbox">
+            <section class="detail-sect-left">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" class="svg-close">
+                  <g>
+                    <g id="computer-svg-3">
+                      <rect x="18%" y="20%" width="70%" height="58%" rx="20" id="rect-home-3"></rect>
+                      <clipPath id="clip3">
+                        <use xlink:href="#rect-home-3"></use>
+                      </clipPath>
+                      <circle cx="76.5%" cy="24.8%" r="6" id="circle-home-3-1"></circle>
+                      <circle cx="80%" cy="24.8%" r="6" id="circle-home-3-2"></circle>
+                      <circle cx="83.5%" cy="24.8%" r="6" id="circle-home-3-3"></circle>
+                      <line x1="22%" y1="28.8%" x2="84%" y2="28.8%" id="line-home-3"></line>
+                      <image href="" x="22%" y="20%" width="50%" height="18%" id="img-home-3" clip-path="url(#clip3)"></image>
+                  </g>
+                </svg>
+            </section>
+            <section class="detail-sect-right">
+                <h1>Lorem Ipsum</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget lectus non neque volutpat congue ac at tortor. Vivamus cursus luctus diam ac sodales. Nullam eget neque enim. Maecenas finibus lectus a neque tincidunt cursus.</p>
+                <button id="learn-more-link">+Learn more</button>
+                <button id="site-rules-link">+StudyNest Rules</button>
+            </section>
+        </div>
+        <section id="why-strengths">
+            <div class="flexbox">
+                <div>
+                    
+                </div>
+                <div>
+                    
+                </div>
+                <div>
+                    
+                </div>
+            </div>
+        </section>
+        <section id="testimony">
+            <div class="flexbox">
+                <!--CAROSEL GOES HERE-->
+            </div>
+        </section>
+        <section id="join-newsletter">
+            <div class="flexbox">
+                <div id="news-img">
+                    <!--MAIL IMG/NEWSLETTER IMG/CALANDER IMG/?????-->
+                </div>
+                <div id="news-info">
+                    <h1>Join Our Newsletter</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget lectus non neque volutpat congue ac at tortor. Vivamus cursus luctus diam ac sodales. Nullam eget neque enim. Maecenas finibus lectus a neque tincidunt cursus.</p>
+                    <button id="learn-more-link">Join</button>
+                </div>
+            </div>
+        </section>
+        <footer>
+            
+        </footer>
+        <script type="text/javascript" src="home.js"></script>
+        <script type="text/javascript" src="favicon.js"></script>
+        <script type="text/javascript" src="logInOut.js"></script>
+    </body>
+</html>
