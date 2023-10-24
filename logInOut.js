@@ -12,7 +12,9 @@ onload = function checkSign(){
   var splitCookies = allCookies.split(";");
 
   for (var c = 0; c<=splitCookies.length; c++){
-    var cleanCookie = splitCookies[c].trim();
+	if (c != splitCookies.length){
+		var cleanCookie = splitCookies[c].trim();
+	}
     var cleanerCookie = cleanCookie.split("=");
 	console.log(cleanerCookie);
     if (cleanerCookie == "true") {
