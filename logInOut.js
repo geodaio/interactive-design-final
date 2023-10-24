@@ -1,6 +1,6 @@
 function storeCookies(name, value){
   var myDate = new Date();
-	myDate.setDate = myDate.getDate() + 31;
+	myDate.setMonth() = myDate.getMonth() + 1;
 	document.cookie=name+"="+value+"; expires="+myDate.toUTCString()+"; path=/";
 	console.log(document.cookie);
 }
