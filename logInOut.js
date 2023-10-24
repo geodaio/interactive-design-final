@@ -1,6 +1,7 @@
 function storeCookies (name, value){
-  const myDate = new Date();
-  document.cookie=name+"="+value+"; expires="+myDate.toUTCString()+"; path=/";
+  var myDate = new Date();
+	myDate.setDate = myDate.getDate() + 31;
+	document.cookie=name+"="+value+"; expires="+myDate.toUTCString()+"; path=/";
 }
 
 document.getElementById("sign-in").onclick = function() {
