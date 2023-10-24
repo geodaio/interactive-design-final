@@ -12,12 +12,13 @@ onload = function checkSign(){
   var splitCookies = allCookies.split(";");
 
   for (var c = 0; c<=splitCookies.length; c++){
-	if (c != splitCookies.length){
-		var cleanCookie = splitCookies[c].trim();
-	}
+    var cleanCookie;
+    if (c != splitCookies.length){
+      cleanCookie = splitCookies[c].trim();
+    }
     var cleanerCookie = cleanCookie.split("=");
-	console.log(cleanerCookie);
-    if (cleanerCookie.equalsIgnoringCase("true") == true) {
+    console.log(cleanerCookie);
+    if (cleanerCookie[c].equalsIgnoringCase("true") == true) {
         window.location.assign("https://geodaio.github.io/interactive-design-final/index-login");
 	console.log("loggedin2");
     }
