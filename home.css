@@ -43,7 +43,6 @@ nav .header-left a{
   display:inline-block;
   position:relative;
   width:33%;
-  height:50%;
   margin:auto;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -70,7 +69,6 @@ nav .header-left a{
   border-left-style:solid;
   padding-right:1%;
   padding-top:1%;
-  height: 50%;
 }
 .lang-options {
   display:none;
@@ -128,7 +126,6 @@ nav .header-left a{
 }
 #dropdown-img {
   max-width:20%;
-  height:100%;
   display:inherit;
   position:relative;
 }
