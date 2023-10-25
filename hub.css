@@ -26,37 +26,40 @@ h1{
    font-size: 64px;
 }
 
-
-/* End Utility Styles */
-
-/* Header Styles */
-/* I use the header class to target this specific container. The element this targets also has a class of row as well. */
-.header {
-    background: darkslategrey;
-    margin: auto;
-    height: 70px;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    padding-right: 30px;
-    padding-left: 30px;
-
+header {
+  font-size: 1em;
+  float:left;
+  margin:auto;
+  text-align:center;
+  width:100%;
+}
+header img {
+  width:100%;
+  float:left;
+  margin:10%;
+  margin-left:0px;
+  margin-top:0px;
+  margin-bottom:0px;
+}
+#header-logo {
+  max-width:10%;
 }
 
+/*Insert CSS for nav here Abi */
 
 
-/* End Header Styles */
+/* */
 
 /* Left Column Styles */
 .left {
-    float: left; /*maybe remove */
-    padding: 50px 1em;
+    padding: 10px 0 80px 0;
     margin-top: 5%;
     width: 600px;
     display: block;
     margin-right:auto;
     margin-left: auto;
 }
+
 .right{
     float: left;
 
@@ -86,16 +89,16 @@ h1{
 }
 
 .main{
-    background: aliceblue;
+  background-color: #ADB499 ; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#488455, #DAD299);
     height: 650px;
 }
 
 .main2{
-    background: lightgray;
-    padding: 60px;
+    padding: 0 56px 0 56px;
 }
 
-.heading3 {padding-bottom: 20px}
+.heading3 {padding:20px 0 20px 0}
 
 .nearyou {
 display: grid;
@@ -113,7 +116,10 @@ display: grid;
   justify-content: center;
 }
 
+
+
 .card {
+  border-radius: 10px;
   border: 1px solid black;
   background: white;
   max-width: 270px;
@@ -291,6 +297,48 @@ footer {
     width: 100%;
 }
 
+.pagcontainer{
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  background:
+}
+
+
+/* GENERAL STYLES */
+
+.pagination{
+  padding: 30px 0;
+}
+
+.pagination ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.pagination a{
+  display: inline-block;
+  padding: 10px 18px;
+  color: #222;
+}
+
+.p1 a{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0;
+  text-align: center;
+  text-decoration:none;
+}
+
+.p1 a.is-active{
+  background-color: #293730;
+  border-radius: 100%;
+  color: #FEFCF8;
+}
+
 
 @keyframes animate_text {
     from {
@@ -300,6 +348,7 @@ footer {
       transform: translate3d(-100%, 0, 0);
     }
 }
+
 
 
 
