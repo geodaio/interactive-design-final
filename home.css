@@ -147,9 +147,21 @@ nav .header-left a{
   border-radius: 100%;
 }
 #notifications-header {
-  max-width:60%;
+  max-width:10%;
   display:inherit;
   position:relative;
+  background-color:#FDF8DC;
+  border-color:#FDF8DC;
+  border-style:solid;
+}
+#notification-bell-img{
+  max-width:80%;
+  display:inherit;
+  position:relative;
+  margin:auto;
+  background-color:#FDF8DC;
+  border-color:#FDF8DC;
+  border-style:solid;
 }
 
 .intro-sect-left {
@@ -315,7 +327,3 @@ button {
       transform: translate3d(-100%, 0, 0);
     }
 }
-
-
-
-
