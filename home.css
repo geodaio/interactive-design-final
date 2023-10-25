@@ -135,6 +135,22 @@ nav .header-left a{
   position:relative;
 }
 
+#profile-header {
+  max-width:60%;
+  display:inherit;
+  position:relative;
+}
+#profile-pic-header {
+  max-width:20%;
+  display:inherit;
+  position:relative;
+  border-radius: 100%;
+}
+#notifications-header {
+  max-width:60%;
+  display:inherit;
+  position:relative;
+}
 
 .intro-sect-left {
   width:60%;
