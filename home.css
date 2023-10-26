@@ -373,6 +373,15 @@ nav .header-left a{
   border-color:#FEFCF8;
 }
 
+#profile-section-sg{
+  display:block;
+}
+#profile-section-sb{
+  display:none;
+}
+#profile-section-ra{
+  display:none;
+}
 
 body {
   background-color: #FEFCF8;
