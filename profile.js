@@ -1,14 +1,14 @@
-function toSGProfile{
+function toSGProfileI(){
   document.getElementById("profile-section-sb").style.display = "none";
   document.getElementById("profile-section-ra").style.display = "none";
   document.getElementById("profile-section-sg").style.display = "block";
 } 
-function toSBProfile{
+function toSBProfile(){
   document.getElementById("profile-section-sg").style.display = "none";
   document.getElementById("profile-section-ra").style.display = "none";
   document.getElementById("profile-section-sb").style.display = "block";
 }
-function toRAProfile{
+function toRAProfile(){
   document.getElementById("profile-section-sb").style.display = "none";
   document.getElementById("profile-section-sg").style.display = "none";
   document.getElementById("profile-section-ra").style.display = "block";
