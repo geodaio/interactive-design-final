@@ -5,9 +5,8 @@ function storeCookies(name, value){
 	console.log(document.cookie);
 }
 
+var cookieTrue = false;
 onload = function checkSign(){
-	if (window.location.href == "https://geodaio.github.io/interactive-design-final/") {
-		console.log("test");
 	  var allCookies = document.cookie;
 	
 	  var splitCookies = allCookies.split(";");
@@ -19,11 +18,21 @@ onload = function checkSign(){
 	    }
 	    var cleanerCookie = cleanCookie.split("=");
 	    console.log(cleanerCookie);
-	    if (cleanerCookie[c] === "true") {
+	    if ((cleanerCookie[c] === "true") && (window.location.href == "https://geodaio.github.io/interactive-design-final/")) {
 	        window.location.assign("https://geodaio.github.io/interactive-design-final/index-login");
 		console.log("loggedin2");
-	    }
+		cookieTrue = true;
 	  }
+	}
+
+	if (cookieTrue == false) {
+		switch (window.location.href){
+			case "https://geodaio.github.io/interactive-design-final/index-login", "https://geodaio.github.io/interactive-design-final/profile.html", "https://geodaio.github.io/interactive-design-final/messages.html" :
+				window.location.assign("https://geodaio.github.io/interactive-design-final/");
+				break;
+			default:
+				break;
+		}
 	}
 };
 function signIn() {
