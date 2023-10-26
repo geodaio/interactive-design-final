@@ -6,7 +6,7 @@ function storeCookies(name, value){
 }
 
 onload = function checkSign(){
-	if (window.location.href != "https://geodaio.github.io/interactive-design-final/index-login") {
+	if (window.location.href == "https://geodaio.github.io/interactive-design-final") {
 		console.log("test");
 	  var allCookies = document.cookie;
 	
