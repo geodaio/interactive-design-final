@@ -26,11 +26,10 @@ onload = function checkSign(){
 	}
 
 	if (cookieTrue == false) {
+		console.log("test");
 		switch (window.location.href){
 			case "https://geodaio.github.io/interactive-design-final/index-login", "https://geodaio.github.io/interactive-design-final/profile.html", "https://geodaio.github.io/interactive-design-final/messages.html" :
 				window.location.assign("https://geodaio.github.io/interactive-design-final/");
-				break;
-			default:
 				break;
 		}
 	}
