@@ -300,19 +300,24 @@ nav .header-left a{
 #site-rules-link{
 }
 
-
+#body-login{
+  background-color: #ADB499;
+}
 #login-sect{
   margin:auto;
   text-align:center;
-  width:30%;
+  width:33.3%;
   height:80%;
-  background-color:teal;
-  border-radius: 5px;
+  border-radius: 25px;
   display:flex;
   flex-direction:column;
+  background-color: #FEFCF8;
+}
+#form-login{
+  margin-bottom:10%;
 }
 #leave-login{
-  width:7%;
+  width:6%;
   margin-top:2%;
   margin-right:2%;
   border-radius:100%;
@@ -323,17 +328,38 @@ nav .header-left a{
   height:100%;
 }
 #login-button{
-  margin-top:20%;
+  background-color:#293730;
+  border-width: 2px;
+  border-color:#293730;
+  border-style:solid;
+  color:#FEFCF8;
+  margin-top:15%;
+  width:33%;
+  height:25%;
+  font-size:.7em;
+  border-radius:5px;
+  font-size:1em;
+  font-family: 'PT Serif', serif;
 }
 #email, #password {
   width:70%;
   line-height:3em;
 }
 #google-log, #twitter-log, #fb-log {
-  width:30%;
+  width:25%;
   margin:auto;
   margin-bottom:2%;
-  height:20%;
+  height:50%;
+  border-radius:0px;
+  border:none;
+}
+#google-log {
+  margin-right:3%;
+  margin-left:3%;
+}
+#fb-log {
+  margin-right:3%;
+  margin-left:3%;
 }
 #forgot-password {
   width:50%;
@@ -341,6 +367,10 @@ nav .header-left a{
   margin:auto;
   margin-top:2%;
   margin-bottom:2%;
+  font-weight:bold;
+  background-color:#FEFCF8;
+  border-style:solid;
+  border-color:#FEFCF8;
 }
 
 
@@ -364,7 +394,7 @@ a {
   font-size:1.2em;
   font-family: 'PT Serif', serif;
 }
-button {
+button, label{
   border-radius:5px;
   font-size:1em;
   font-family: 'PT Serif', serif;
