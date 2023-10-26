@@ -304,27 +304,40 @@ nav .header-left a{
 #login-sect{
   margin:auto;
   text-align:center;
-  max-width:30%;
+  width:30%;
+  height:80%;
   background-color:teal;
   border-radius: 5px;
+  display:flex;
+  flex-direction:column;
 }
 #leave-login{
-  max-width:7%;
-  margin-left:2%;
+  width:7%;
   margin-top:2%;
+  margin-right:2%;
+  border-radius:100%;
+  align-self:flex-end;
 }
 #button-log{
   flex-direction:row;
+  height:100%;
+}
+#login-button{
+  margin-top:20%;
+}
+#email, #password {
+  width:70%;
+  line-height:3em;
 }
 #google-log, #twitter-log, #fb-log {
   width:30%;
   margin:auto;
-  margin-top:2%;
   margin-bottom:2%;
-  height:4.5em;
+  height:20%;
 }
 #forgot-password {
   width:50%;
+  height:10%;
   margin:auto;
   margin-top:2%;
   margin-bottom:2%;
@@ -334,6 +347,7 @@ nav .header-left a{
 body {
   background-color: #FEFCF8;
   margin:0px;
+  height:100vh;
 }
 h1, h2, p, a, button {
   color: #293730;
