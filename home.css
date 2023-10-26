@@ -70,6 +70,17 @@ nav .header-left a{
   padding-right:1%;
   padding-top:1%;
 }
+.header-right-study-hub {
+  width:40%;
+  float:right;
+  display:inherit;
+  flex-direction:inherit;
+  border-left-width: 2px;
+  border-left-color:black;
+  border-left-style:solid;
+  padding-right:1%;
+  padding-top:1%;
+}
 .lang-options {
   display:none;
   background-color:#FDF8DC;
