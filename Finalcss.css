@@ -220,8 +220,8 @@ form {
   
       }
 
-input {
-  /*Removed all:unset from this i will see if it breaks it*/
+.studyhub input {
+        all:unset;
         font: 16px system-ui;
         color: green;
         height: 100%;
