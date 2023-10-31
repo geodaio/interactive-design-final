@@ -504,19 +504,20 @@ nav .header-left a{
   position:relative;
 }
 
+
 #profile-header {
-  max-width:60%;
+  max-width:40%;
   display:inherit;
   position:relative;
 }
 #profile-pic-header {
-  max-width:20%;
+  max-width:100%;
   display:inherit;
   position:relative;
   border-radius: 100%;
 }
 #notifications-header {
-  max-width:10%;
+  width:20%;
   display:inherit;
   position:relative;
   background-color:#FDF8DC;
