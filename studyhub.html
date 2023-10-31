@@ -1,104 +1,72 @@
 <!-- Study hub Page -->
 <!-- Katherine Cajamarca -->
-<!-- INF 3 -->
+<!-- INF 362 -->
 <!DOCTYPE html>
-<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Study Hub</title>
-	<link rel="stylesheet" href="hub.css">
+	<link rel="stylesheet" href="testingcss.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=PT+Serif&display=swap" rel="stylesheet"> <!--Previous three links are links for Google Fonts-->
 </head>
-	
-</head>
-<body>
+<body class="studyhub">
     <!--Insert Nav bar here -->
 	 <header id="header-in">
             <nav class="flexbox">
-                <div class="header-left">
-                    <img src="SNLogo.svg" alt="Logo Temp" id="header-logo">
-                    <a href="https://geodaio.github.io/interactive-design-final/" title="Temp">Home</a>
-                    <a href="studyhub.html" title="Temp">Study Hub</a>
-                    <a href="" title="Temp">Communities</a>
-                    <a href="" title="Temp">About Us</a>
-                </div>
-                <div class="header-right-study-hub">
-                    <div class="dropdown">
-                        <button class="dropdown-button" id="lang"><img src="Globe_icon.svg" alt="ALTTEXT" id="dropdown-img">English</button>
-                        <div class="lang-options">
-                            <a href="" title="English" id="English" onclick="changeLang(this.id)">English</a>
-                            <a href="" title="Spanish" id="Spanish" onclick="changeLang(this.id)">Spanish</a>
-                            <a href="" title="French" id="French" onclick="changeLang(this.id)">French</a>
-                            <a href="" title="German" id="German" onclick="changeLang(this.id)">German</a>
-                            <a href="" title="Russian" id="Russian" onclick="changeLang(this.id)">Russian</a>
-                        </div>
-                    </div>
-                    <button class="notification-bell" id="notifications-header"><img src="notification_logo.svg" alt="ALTTEXT" id="notification-bell-img"></button>
-                    <div class="dropdown">
-                        <button class="dropdown-button" id="profile-header"><img src="Globe_icon.svg" alt="ALTTEXT" id="profile-pic-header"></button>
-                        <div class="lang-options">
-                            <a href="profile.html" title="" id="profile-drop-header">Profile</a>
-                            <a href="messages.html" title="" id="messages-header">Messages</a>
-                            <a href="" title="" id="settings-header" onclick="changeLang(this.id)">Settings</a>
-                            <a href="" title="" id="log-out-header" onclick="signOut()">Log Out</a>
-                        </div>
-                    </div>
-                </div>
+               
+                
             </nav>
         </header>
     <!-- -->
-		 <div class="container">
 
-            <div class="row main">
-                <div class="left">
-                    <div class="row details">
-                        <h1>Heading 1</h1>
-                        <p>Suspendisse vehicula ipsum magna, nec lobortis nisi eleifend a. Maecenas sit amet sodales lectus. Nulla id magna tellus.</p>
-                        <form role="search" id="form">
-		     				 <input type="search" id="query" name="q" placeholder="Search..." aria-label="Search through site content">
-		      				<button id="formButton">
-		        				<svg viewBox="0 0 1024 1024"><path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path></svg>
-		     				</button>
-     			</form>
-     			<div class="style2">
-     			  <button class="btn" name="submit" class="action_btn submit" type="submit" value="Save" onclick="myFunction()">Search</button>
-            		<button class="btn" name="submit" class="action_btn cancel" type="submit" value="Cancel" onclick="myFunction2()">Search</button></div>
-
-                    </div>
-                </div>
-
-                 <div class="right">
-                 	<div class="row scrolling_text">
-    <div class="text">
-        <span>running text</span>
-        <span>running text</span>
-        <span>running text</span>
-        <span>running text</span>
-        <span>running text</span>
+<div class="container">
+   	<div class="row main">
+    <div class="left">
+    	<!-- Banner for studyhub -->
+       <div class="row details">
+        <h1>Study Hub</h1>
+        <p>Suspendisse vehicula ipsum magna, nec lobortis nisi eleifend a. Maecenas sit amet sodales lectus. Nulla id magna tellus.</p>
+        <form role="search" id="form">
+		<input type="search" id="query" name="q" placeholder="Search..." aria-label="Search through site content">
+		<button id="formButton">
+		<svg viewBox="0 0 1024 1024"><path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path></svg>
+		 </button>
+     	</form>
+     	<div class="style2">
+     	<button class="btn" name="submit" class="action_btn submit" type="submit" value="Save" onclick="myFunction()">Find Study Buddy</button>
+        <button class="btn" name="submit" class="action_btn cancel" type="submit" value="Cancel" onclick="myFunction2()">Find Study Group</button>
+    	</div>
+    	</div>
     </div>
-    <div class="text">
-        <span>running text</span>
-        <span>running text</span>
-        <span>running text</span>
-        <span>running text</span>
-        <span>running text</span>
-    </div>
-</div>
-				</div>
-			</div>
-
+	</div>
+	<!-- Running text-->
+   <div class="right">
+   <div class="row scrolling_text">
+		<div class="text">
+		<span>running text</span>
+		<span>running text</span>
+		<span>running text</span>
+		<span>running text</span>
+		<span>running text</span>
+		</div>
+		<div class="text">
+		<span>running text</span>
+		<span>running text</span>
+		<span>running text</span>
+		<span>running text</span>
+		<span>running text</span>
 		</div>
 
-<div class="row main2">
-	<h2 class="heading3"> Study Buddies Near You </h2>
-
-			<div class="nearyou">
-
-			<div class="card">
+	</div>
+	</div>
+	<!--Carousel in progress of Study Buddies looking for pals-->
+	<div class="row main2">
+		<h2 class="heading3"> Study Buddies Near You </h2>
+		<div class="nearyou">
+		<div class="card">
 			  <img src="cardpic.jpg" alt="John" style="width:100%">
 			  <h3>Student Name</h3>
 			  <p class="title">Study of Interest</p>
@@ -109,10 +77,10 @@
 			    <a href="#"><i class="fa fa-linkedin"></i></a>  
 			    <a href="#"><i class="fa fa-facebook"></i></a> 
 			  </div>
-			  <p><button id="get-started">Contact</button></p>
-			</div>
+			  <p><button id="get-started">Message</button></p>
+		</div>
 
-			<div class="card">
+		<div class="card">
 			  <img src="cardpic.jpg" alt="John" style="width:100%">
 			  <h3>Student Name</h3>
 			  <p class="title">Study of Interest</p>
@@ -122,11 +90,11 @@
 			    <a href="#"><i class="fa fa-twitter"></i></a>  
 			    <a href="#"><i class="fa fa-linkedin"></i></a>  
 			    <a href="#"><i class="fa fa-facebook"></i></a> 
-			  </div>
-			  <p><button id="get-started">Contact</button></p>
-			</div>
+				</div>
+			  <p><button id="get-started">Message</button></p>
+		</div>
 
-			<div class="card">
+		<div class="card">
 			  <img src="cardpic.jpg" alt="John" style="width:100%">
 			  <h3>Student Name</h3>
 			  <p class="title">Study of Interest</p>
@@ -137,10 +105,10 @@
 			    <a href="#"><i class="fa fa-linkedin"></i></a>  
 			    <a href="#"><i class="fa fa-facebook"></i></a> 
 			  </div>
-			  <p><button id="get-started">Contact</button></p>
-			</div>
+			  <p><button id="get-started">Message</button></p>
+		</div>
 
-			<div class="card">
+		<div class="card">
 			  <img src="cardpic.jpg" alt="John" style="width:100%">
 			  <h3>John Doe</h3>
 			  <p class="title">Study of Interest</p>
@@ -151,10 +119,9 @@
 			    <a href="#"><i class="fa fa-linkedin"></i></a>  
 			    <a href="#"><i class="fa fa-facebook"></i></a> 
 			  	</div>
-			  <p><button id="get-started">Contact</button></p>
-				</div>
-
-			</div>
+			  <p><button id="get-started">Message</button></p>
+		</div>
+		</div>
 			<div class="pagcontainer">
 				    <div class="pagination p1">
 				      <ul>
@@ -167,49 +134,47 @@
 				        <a href="#"><li>6</li></a>
 				        <a href="#"><li>></li></a>
 				      </ul>
-				  </div></div>
-</div>
+				  </div>
+			</div>
 
-<div class="row main2">
 	<h2 class="heading3">Study Buddies Near You </h2>
-<div class="nearyou2">
-	 <div class="cardtype">
-     <div class="row">
+<!--Trending study communities-->
+	<div class="nearyou2">
+	 	<div class="cardtype">
+     	<div class="row">
 		<div class="avatars">
 			<span class="avatar">
 			<img src="https://picsum.photos/70">
 			</span>
 			<span class="avatar">
-				<img src="https://picsum.photos/70">
-			</span>
-			<span class="avatar">
-				<img src="https://picsum.photos/70">
-			</span>
-	</div>
-		<h4> Group Name </h4>
-		<p> Placeholder for GC Bio </p>
-	</div>
-	</div>
-  <div class="cardtype">
-     <div class="row">
-		<div class="avatars">
-			<span class="avatar">
 			<img src="https://picsum.photos/70">
 			</span>
 			<span class="avatar">
-				<img src="https://picsum.photos/70">
+			<img src="https://picsum.photos/70">
 			</span>
-			<span class="avatar">
-				<img src="https://picsum.photos/70">
-			</span>
-	</div>
-       
+		</div>
 		<h4> Group Name </h4>
 		<p> Placeholder for GC Bio </p>
 		</div>
-	</div>
-         <div class="cardtype">
-     <div class="row">
+		</div>
+ 	 	<div class="cardtype">
+    	<div class="row">
+		<div class="avatars">
+			<span class="avatar">
+			<img src="https://picsum.photos/70">
+			</span>
+			<span class="avatar">
+			<img src="https://picsum.photos/70">
+			</span>
+			<span class="avatar">
+			<img src="https://picsum.photos/70">
+			</span>
+		</div>
+		<h4> Group Name </h4><p> Placeholder for GC Bio </p>
+		</div>
+		</div>
+        <div class="cardtype">
+     	<div class="row">
 		<div class="avatars">
 			<span class="avatar">
 			<img src="https://picsum.photos/70">
@@ -220,56 +185,58 @@
 			<span class="avatar">
 				<img src="https://picsum.photos/70">
 			</span>
-	</div>
-       
-		<h4> Group Name </h4>
-		<p> Placeholder for GC Bio </p>
-		</div></div>
+		</div>
+		<h4> Group Name </h4><p> Placeholder for GC Bio </p>
+		</div>
+		</div>
         
-         <div class="cardtype">
-     <div class="row">
+     <div class="cardtype">
+     	<div class="row">
 		<div class="avatars">
 			<span class="avatar">
 			<img src="https://picsum.photos/70">
 			</span>
 			<span class="avatar">
-				<img src="https://picsum.photos/70">
+			<img src="https://picsum.photos/70">
 			</span>
 			<span class="avatar">
-				<img src="https://picsum.photos/70">
+			<img src="https://picsum.photos/70">
 			</span>
+		</div>
+		<h4> Group Name </h4><p> Placeholder for GC Bio </p>
+		</div>
 	</div>
-       
-		<h4> Group Name </h4>
-		<p> Placeholder for GC Bio </p>
-		</div></div>
 	</div>
-	<div class="pagcontainer">
-    <div class="pagination p1">
-      <ul>
-        <a href="#"><li><</li></a>
-        <a class="is-active" href="#"><li>1</li></a>
-        <a href="#"><li>2</li></a>
-        <a href="#"><li>3</li></a>
-        <a href="#"><li>4</li></a>
-        <a href="#"><li>5</li></a>
-        <a href="#"><li>6</li></a>
-        <a href="#"><li>></li></a>
-      </ul>
-  </div>
-</div> 
+	</div>
+
+		<footer>
+		<div class="content">
+		<div class="top">
+			<div class="logo-details">
+			<span class="logo_name"><img src="SNLogo.svg" alt="Logo Temp" id="header-logo"></span>
+		</div>
+			<div class="media-icons">
+				<a href="#"><i class="fa-facebook"></i></a>
+				<a href="#"><i class="fa-facebook"></i></a>
+				<a href="#"><i class="fa-facebook"></i></a>
+				<a href="#"><i class="fa-facebook"></i></a>
+				<a href="#"><i class="fa-facebook"></i></a>
+			</div>
+		  </div>
+		  	<hr class="hrstyle">
+			<div class="bottom-details">
+			<div class="bottom_text">
+				<span class="copyright_text"><a href="#"> Study Nest© 2023. All rights reserved</a></span>
+				<span class="Policy-terms">
+				   	<a href="#">Privacy policy</a>
+				   	<a href="#">Terms and condtions</a>
+				</span>
+			</div>
+			</div>
+		  <div class="link-boxes"></div>
+		</div>
+		</footer>
 </div>
 
-</body>
-
-<footer>
-	<div class="row4">
-		<div class="col4">
-			<p> 2023 studynest. All rights reserved. </p>
-		</div>
-		<div class="socialicons"></div>
-	<img src="" alt="Girl in a jacket">
-
-</footer>
 </body>
 </html>
