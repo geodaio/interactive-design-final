@@ -145,17 +145,26 @@ nav .header-left a{
   display:inherit;
   position:relative;
 }
-
 #profile-header {
-  max-width:60%;
-  display:inherit;
+  max-width:100%;
+  display:relative;
   position:relative;
+  flex-direction:row;
+  display:flex;
+  font-size:90%;
+}
+#profile-header.dropdown-button{
+  top:-10%;
 }
 #profile-pic-header {
   max-width:20%;
   display:inherit;
   position:relative;
+  margin:auto;
   border-radius: 100%;
+}
+.hello-text{
+  
 }
 #notifications-header {
   max-width:10%;
