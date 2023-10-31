@@ -669,6 +669,291 @@ font-weight:bold;
 #site-rules-link{
 }
 
+/*IM CHANGING FROM HERE DOWN TO TRY AND FIX THE LOGIN AND PROFILE PAGES*/
+#body-login{
+  background-color: #ADB499;
+}
+#login-sect{
+  margin:auto;
+  text-align:center;
+  width:33.3%;
+  height:80%;
+  border-radius: 25px;
+  display:flex;
+  flex-direction:column;
+  background-color: #FEFCF8;
+}
+#form-login{
+  margin-bottom:10%;
+}
+#leave-login{
+  width:6%;
+  margin-top:2%;
+  margin-right:2%;
+  border-radius:100%;
+  align-self:flex-end;
+}
+#button-log{
+  flex-direction:row;
+  height:100%;
+}
+#login-button{
+  background-color:#293730;
+  border-width: 2px;
+  border-color:#293730;
+  border-style:solid;
+  color:#FEFCF8;
+  margin-top:15%;
+  width:33%;
+  height:25%;
+  font-size:.7em;
+  border-radius:5px;
+  font-size:1em;
+  font-family: 'PT Serif', serif;
+}
+#email, #password {
+  width:70%;
+  line-height:3em;
+}
+#google-log, #twitter-log, #fb-log {
+  width:25%;
+  margin:auto;
+  margin-bottom:2%;
+  height:50%;
+  border-radius:0px;
+  border:none;
+}
+#google-log {
+  margin-right:3%;
+  margin-left:3%;
+}
+#fb-log {
+  margin-right:3%;
+  margin-left:3%;
+}
+#forgot-password {
+  width:50%;
+  height:10%;
+  margin:auto;
+  margin-top:2%;
+  margin-bottom:2%;
+  font-weight:bold;
+  background-color:#FEFCF8;
+  border-style:solid;
+  border-color:#FEFCF8;
+}
+
+
+
+#profile-header-img-profile{
+  height:300px;
+}
+#profile-pic-profile{
+  height:300px;
+  width:20%;
+  left:40%;
+  position:absolute;
+  border-radius:100%;
+  background-color:blue;
+}
+.user {
+  width:20%;
+  float:left;
+  padding-left:2%;
+  margin-left:5%;
+}
+#user-name{
+  font-size:3.75em;
+  font-family:"Lora", serif;
+  margin-bottom:0%;
+  margin-top:10%;
+}
+#username{
+  font-size:1.75em;
+  font-family:"Lora", serif;
+}
+#user-description{
+  width:90%;
+  padding-right:2%;
+  float:right;
+  text-align:end;
+  margin-top:4%;
+}
+#profile-header-right{
+  display:inherit;
+  align-content:center;
+}
+#message-user, #add-buddy{
+  width:33%;  
+  height:60px;  
+  margin:auto;
+}
+#add-buddy{
+  background-color:#293730;
+  border-width: 2px;
+  border-color:#293730;
+  border-style:solid;
+  color:#FEFCF8;
+  margin-right:7%;
+  margin-left:7%;
+}
+#message-user{
+  background-color:#FEFCF8;
+  border-width: 2px;
+  border-color:#293730;
+  border-style:solid;
+  margin-right:0px;
+}
+#profile-header-right{
+  width:50%;
+  margin:auto;
+}
+#profile-header-left{
+  width:50%;
+  margin-right:20%;
+}
+#user-description{
+  width:50%;
+}
+#profile-section-main{
+  background-color:#ADB499;
+  border-radius:25px;
+  width:95%;
+  margin:auto;
+}
+#profile-section-sg{
+  display:block;
+}
+#profile-section-sb{
+  display:none;
+}
+#profile-section-ra{
+  display:none;
+}
+#profile-section-about{
+  width:50%;
+  height:445px;
+  background-color:#FEFCF8;
+  padding:2%;
+  margin:5%;
+  border-radius:25px;
+}
+#study-group-buddy-activity{
+  width:50%;
+  height:500px;
+  background-color:#FEFCF8;
+  margin:5%;
+  border-radius:25px;
+  position:relative;
+}
+#profile-section-sg, #profile-section-sb, #profile-section-ra{
+  background-color:#FEFCF8;
+  height:85%;
+  width:96%;
+  margin:auto;
+  border-radius:inherit;
+  position:absolute;
+  top:15%;
+}
+#study-group-buddy-activity button{
+  width:33.3%;
+  height:12%;
+  float:left;
+  border:none;
+}
+#sg{
+  border-radius:0px;
+  border-top-left-radius:25px;
+}
+#ra{
+  border-radius:0px;
+  border-top-right-radius:25px;
+}
+#sb{
+  border-radius:0px;
+}
+.study-group{
+  padding-left:5%;
+  height:35%;
+}
+.person{
+  height:35%;
+  padding-top:1%;
+  padding-left:5%;
+  text-align:left;
+  margin:auto;
+  position:relative;
+}
+.person-text{
+  position:relative;
+  top:2%;
+}
+.person h3, h4, p{
+  margin-top:0px;
+  margin-bottom:0px;
+}
+.pfp-buddy{
+  max-width:100%;
+  max-height:100px;
+  height: 300px;
+  width: 20%;
+  margin-left:70%;
+  top:-1%;
+  position: absolute;
+  border-radius: 100%;
+}
+#about{
+  float:left;
+  width:45%;
+  margin-left:2%;
+}
+#about-p-1, #about-p-2 {
+  height:50%;
+  width:100%;
+  margin:2%;
+}
+#fast-facts{
+  width:40%;
+  height:60%;
+  margin:auto;
+  font-size:100%;
+  float:right;
+  text-align:right;
+  background-color:#FEFCF8;
+  border-width: 1.5px;
+  border-color:#293730;
+  border-style:solid;
+  border-radius:25px;
+  padding:2%;
+  margin-left: 4%;
+  margin-bottom: 4%;
+}
+#fast-facts p, h3 {
+  margin:0px;
+}
+#message-section{
+  width:90%;
+  margin:auto;
+}
+#messages-header{
+  width:40%;
+  height:10%;
+  float:left;
+}
+#person-select{
+  float:left;
+  text-align:left;
+  height:90%;
+}
+#chat{
+  float:right;
+}
+#person-message-search {
+  width:50%;
+  float:left;
+}
+/*END TEST CHANGES*/
+
 
 #login-sect{
   margin:auto;
