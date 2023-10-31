@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=PT+Serif&display=swap" rel="stylesheet"> <!--Previous three links are links for Google Fonts-->
 </head>
     <body>
-        <header id="header-in">
+                <header id="header-in">
             <nav class="flexbox">
                 <div class="header-left">
                     <img src="SNLogo.svg" alt="Logo Temp" id="header-logo">
@@ -35,13 +35,13 @@
                             <a href="" title="Russian" id="Russian" onclick="changeLang(this.id)">Russian</a>
                         </div>
                     </div>
-                    <button class="notification-bell" id="notifications-header"></button>
+                    <button class="notification-bell" id="notifications-header"><img src="notification_logo.svg" alt="ALTTEXT" id="notification-bell-img"></button>
                     <div class="dropdown">
-                        <button class="dropdown-button" id="profile-header"><img src="profile.jpeg" alt="ALTTEXT" id="profile-pic-header"><div class="hello-text">Hello, <p id="profile-user-name">NAME</p>!</div></button>
+                        <button class="dropdown-button" id="profile-header"><img src="profile.jpeg" alt="ALTTEXT" id="profile-pic-header"></button>
                         <div class="lang-options">
                             <a href="profile.html" title="" id="profile-drop-header">Profile</a>
                             <a href="messages.html" title="" id="messages-header">Messages</a>
-                            <a href="" title="" id="settings-header">Settings</a>
+                            <a href="" title="" id="settings-header" onclick="changeLang(this.id)">Settings</a>
                             <a href="" title="" id="log-out-header" onclick="signOut()">Log Out</a>
                         </div>
                     </div>
