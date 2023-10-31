@@ -1,4 +1,4 @@
-function toSGProfileI(){
+function toSGProfile(){
   document.getElementById("profile-section-sb").style.display = "none";
   document.getElementById("profile-section-ra").style.display = "none";
   document.getElementById("profile-section-sg").style.display = "block";
