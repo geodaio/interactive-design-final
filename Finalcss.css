@@ -216,8 +216,16 @@ cursor: pointer;
 }
 
 
-form {
-  
+.studyhub form {
+  overflow-y: hidden;
+  margin-top: 16px;
+  text-align: left;
+  border: 1px solid black;
+  border-radius: 5px;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  background: white;
       }
 
 .studyhub input {
