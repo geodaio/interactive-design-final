@@ -955,36 +955,6 @@ font-weight:bold;
 /*END TEST CHANGES*/
 
 
-#login-sect{
-  margin:auto;
-  text-align:center;
-  max-width:30%;
-  background-color:teal;
-  border-radius: 5px;
-}
-#leave-login{
-  max-width:7%;
-  margin-left:2%;
-  margin-top:2%;
-}
-#button-log{
-  flex-direction:row;
-}
-#google-log, #twitter-log, #fb-log {
-  width:30%;
-  margin:auto;
-  margin-top:2%;
-  margin-bottom:2%;
-  height:4.5em;
-}
-#forgot-password {
-  width:50%;
-  margin:auto;
-  margin-top:2%;
-  margin-bottom:2%;
-}
-
-
 body {
   background-color: #FEFCF8;
   margin:0px;
