@@ -372,13 +372,58 @@ nav .header-left a{
   border-style:solid;
   border-color:#FEFCF8;
 }
+
+
+#profile-header-img-profile{
+  height:300px;
+}
+#profile-pic-profile{
+  height:300px;
+  width:20%;
+  left:40%;
+  position:absolute;
+  border-radius:100%;
+  background-color:blue;
+}
 .user {
-  background-color:red;
-  padding:2%;
+  width:20%;
+  float:left;
+  padding-left:2%;
+}
+#user-name{
+  font-size:2.75em;
+  font-family:"Lora", serif;
+}
+#username{
+  font-size:1.75em;
+  font-family:"Lora", serif;
+}
+#user-description{
+  width:90%;
+  padding-right:2%;
+  float:right;
+  text-align:end;
+}
+
+#message-user{
+  
+}
+#profile-header-right{
   width:50%;
+  margin:auto;
+}
+#profile-header-left{
+  width:50%;
+  margin-right:20%;
 }
 #user-description{
   width:50%;
+}
+#profile-section-main{
+  background-color:#ADB499;
+  border-radius:25px;
+  width:95%;
+  margin:auto;
 }
 #profile-section-sg{
   display:block;
@@ -392,7 +437,7 @@ nav .header-left a{
 #profile-section-about{
   width:50%;
   height:500px;
-  background-color:teal;
+  background-color:#FEFCF8;
   padding:2%;
   margin:5%;
   border-radius:25px;
@@ -400,16 +445,30 @@ nav .header-left a{
 #study-group-buddy-activity{
   width:50%;
   height:1000px;
-  background-color:blue;
+  background-color:#FEFCF8;
   margin:5%;
   border-radius:25px;
 }
+#profile-section-sg, #profile-section-sb, #profile-section-ra{
+  background-color:#FEFCF8;
+  height:92%;
+  width:96%;
+  margin:auto;
+  position:relative;
+  top:5%;
+  border-radius:inherit;
+}
 #study-group-buddy-activity button{
-  width:33%;
-  height:5%;
+  width:33.3%;
+  height:6%;
   float:left;
 }
-
+#sg{
+  border-top-left-radius:25px;
+}
+#ra{
+  border-top-right-radius:25px;
+}
 
 body {
   background-color: #FEFCF8;
