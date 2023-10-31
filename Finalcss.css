@@ -217,19 +217,11 @@ cursor: pointer;
 
 
 form {
-  overflow-y: hidden;
-  margin-top: 16px;
-  text-align: left;
-  border: 1px solid black;
-  border-radius: 5px;
-  display:flex;
-  flex-direction:row;
-  align-items:center;
-  background: white;
+  
       }
 
 input {
-        all: unset;
+  /*Removed all:unset from this i will see if it breaks it*/
         font: 16px system-ui;
         color: green;
         height: 100%;
@@ -268,7 +260,7 @@ input {
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  /*! box-sizing: border-box; */
 }
 
 .scrolling_text {
@@ -670,6 +662,18 @@ font-weight:bold;
 }
 
 /*IM CHANGING FROM HERE DOWN TO TRY AND FIX THE LOGIN AND PROFILE PAGES*/
+#login-sect form, input{
+        font: unset;
+        color: unset;
+        height: unset;
+        width: unset;
+        padding: unset;
+}
+button, label {
+  border-radius: 5px;
+  font-size: 1em;
+  font-family: 'PT Serif', serif;
+}
 #body-login{
   background-color: #ADB499;
 }
@@ -957,7 +961,8 @@ font-weight:bold;
 
 body {
   background-color: #FEFCF8;
-  margin:0px;
+  margin: 0px;
+  height: 100vh;
 }
 h1, h2, p, a, button {
   color: #293730;
@@ -1147,5 +1152,8 @@ border:2px solid black;
 background:gray;
 width:100%
 }
+
+
+
 
 
