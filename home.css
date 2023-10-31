@@ -477,6 +477,9 @@ nav .header-left a{
   border-radius:0px;
 }
 
+#body{
+  display:none;
+}
 body {
   background-color: #FEFCF8;
   margin:0px;
