@@ -512,10 +512,11 @@ nav .header-left a{
   padding-left:5%;
   text-align:left;
   margin:auto;
+  position:relative;
 }
 .person-text{
-  position:absolute;
-  top:1%;
+  position:relative;
+  top:2%;
 }
 .person h3, h4, p{
   margin-top:0px;
@@ -526,7 +527,7 @@ nav .header-left a{
   max-height:100px;
   height: 300px;
   width: 20%;
-  left: 70%;
+  margin-left:30%;
   position: absolute;
   border-radius: 100%;
 }
