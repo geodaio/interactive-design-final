@@ -502,6 +502,35 @@ nav .header-left a{
   border-radius:0px;
 }
 
+/*START KAT CODE*/
+.avatars {
+  width:20%;
+  margin-left:8px;
+  margin-right:20px;
+  margin-top:18px;
+  float:left;
+  display: inline-flex;
+  flex-direction: row-reverse;
+}
+
+.avatar {
+  position: relative;
+  border: 2px solid black;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 100;
+}
+
+.avatar:not(:last-child) {
+  margin-left: -60px;
+}
+
+.avatar img {
+  width: 100%;
+  display: block;
+}
+/*END KAT CODE*/
+
 #body{
   display:none;
 }
