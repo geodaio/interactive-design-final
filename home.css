@@ -546,7 +546,8 @@ nav .header-left a{
   max-height:100px;
   height: 300px;
   width: 20%;
-  margin-left:30%;
+  margin-left:70%;
+  top:-1%;
   position: absolute;
   border-radius: 100%;
 }
