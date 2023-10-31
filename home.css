@@ -462,12 +462,18 @@ nav .header-left a{
   width:33.3%;
   height:6%;
   float:left;
+  border:none;
 }
 #sg{
+  border-radius:0px;
   border-top-left-radius:25px;
 }
 #ra{
+  border-radius:0px;
   border-top-right-radius:25px;
+}
+#sb{
+  border-radius:0px;
 }
 
 body {
