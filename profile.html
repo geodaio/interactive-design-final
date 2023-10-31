@@ -41,7 +41,7 @@
                         <div class="lang-options">
                             <a href="profile.html" title="" id="profile-drop-header">Profile</a>
                             <a href="messages.html" title="" id="messages-header">Messages</a>
-                            <a href="" title="" id="settings-header" onclick="changeLang(this.id)">Settings</a>
+                            <a href="" title="" id="settings-header">Settings</a>
                             <a href="" title="" id="log-out-header" onclick="signOut()">Log Out</a>
                         </div>
                     </div>
@@ -71,17 +71,110 @@
         <section id="profile-section-main">
             <div class="flexbox">
                 <aside id="profile-section-about">
-                    <h2>About</h2>
+                    <h2 id="about">About</h2>
+                    <div class="flexbox-column" id="fast-facts">
+                        <div id="uni">
+                            <h3 id="university">University</h3>
+                            <p id="university-name">University at Albany</p>
+                        </div>
+                        <div id="locat">
+                            <h3 id="location">Location</h3>
+                            <p id="location-name">Albany, New York</p>
+                        </div>
+                        <div id="join-profile">
+                            <h3 id="joined">Joined</h3>
+                            <p id="joined-date">August 2023</p>
+                        </div>
+                        <div id="person-contact-info">
+                            <h3 id="contact-info-profile">Contact Information</h3>
+                            <p id="contact-profile-phone">518-123-4567</p>
+                            <p id="contact-profile-email">fakeemail@gmail.com</p>
+                        </div>
+                    </div>
+                    <p id="about-p-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    <p id="about-p-2"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </aside>
                 <aside id="study-group-buddy-activity">
                     <button id="sg" onclick="toSGProfile()">Study Groups</button>
                     <button id="sb" onclick="toSBProfile()">Study Buddies</button>
                     <button id="ra" onclick="toRAProfile()">Recent Activity</button>
                     <div id="profile-section-sg">
-                        <p>sg</p>
+                        <!--STUDY GROUP OBJECT TO READ THIS ONE IN?????-->
+                        <div class="study-group">
+                            <!--START KAT CODE-->
+                            <div class="avatars">
+			                    <span class="avatar">
+			                        <img src="https://picsum.photos/70">
+			                    </span>
+			                    <span class="avatar">
+				                    <img src="https://picsum.photos/70">
+			                    </span>
+			                    <span class="avatar">
+				                    <img src="https://picsum.photos/70">
+			                    </span>
+	                        </div>
+                            <!--END KAT CODE-->
+                            <h3 class="study-group-name">Study Group</h3>
+                            <p class="study-group-description">Study Group Description Placeholder</p>
+                        </div>
+                        <div class="study-group">
+                            <!--START KAT CODE-->
+                            <div class="avatars">
+			                    <span class="avatar">
+			                        <img src="https://picsum.photos/70">
+			                    </span>
+			                    <span class="avatar">
+				                    <img src="https://picsum.photos/70">
+			                    </span>
+			                    <span class="avatar">
+				                    <img src="https://picsum.photos/70">
+			                    </span>
+	                        </div>
+                            <!--END KAT CODE-->
+                            <h3 class="study-group-name">Study Group</h3>
+                            <p class="study-group-description">Study Group Description Placeholder</p>
+                        </div>
+                        <div class="study-group">
+                            <!--START KAT CODE-->
+                            <div class="avatars">
+			                    <span class="avatar">
+			                        <img src="https://picsum.photos/70">
+			                    </span>
+			                    <span class="avatar">
+				                    <img src="https://picsum.photos/70">
+			                    </span>
+			                    <span class="avatar">
+				                    <img src="https://picsum.photos/70">
+			                    </span>
+	                        </div>
+                            <!--END KAT CODE-->
+                            <h3 class="study-group-name">Study Group</h3>
+                            <p class="study-group-description">Study Group Description Placeholder</p>
+                        </div>
                     </div>
                     <div id="profile-section-sb">
-                        <p>sb</p>
+                        <!--NOTE TO SELF: MAKE A BUDDY OBJECT TO MAKE THIS SECTION WORK, BUDDY CONSTRUCTOR IS CALLED FOR LENGTH OF BUDDY ARRAY AFTER BEING READ IN FROM FILE-->
+                        <div class="person">
+                            <img src="profile.jpeg" alt="" title="" id="profile-pic-profile"  class="pfp-buddy">
+                            <h3 class="first-last-name-buddy">FIRSTNAME LASTNAME</h3>
+                            <h4 class="username-buddy">@username</h4>
+                            <p class="degree-buddy">Bachelors Degree in Informatics</p>
+                            <p class="university-buddy">University at Albany</p>
+                        </div>
+                        <div class="person">
+                            <img src="profile.jpeg" alt="" title="" id="profile-pic-profile"  class="pfp-buddy">
+                            <h3 class="first-last-name-buddy">FIRSTNAME LASTNAME</h3>
+                            <h4 class="username-buddy">@username</h4>
+                            <p class="degree-buddy">Bachelors Degree in Cybersecurity</p>
+                            <p class="university-buddy">University at Albany</p>
+                        </div>
+                        <div class="person">
+                            <img src="profile.jpeg" alt="" title="" id="profile-pic-profile"  class="pfp-buddy">
+                            <h3 class="first-last-name-buddy">FIRSTNAME LASTNAME</h3>
+                            <h4 class="username-buddy">@username</h4>
+                            <p class="degree-buddy">Bachelors Degree in Computer Science</p>
+                            <p class="university-buddy">University at Albany</p>
+                        </div>
                     </div>
                     <div id="profile-section-ra">
                         <p>ra</p>
