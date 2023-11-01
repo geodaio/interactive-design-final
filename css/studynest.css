@@ -360,6 +360,9 @@ header img {
 #header-logo, #header-logo2{
   max-width:48%;
 }
+#body #header-logo{
+  max-width:10%;
+}
 .flexbox {
   width:100%;
   justify-content:space-around;
