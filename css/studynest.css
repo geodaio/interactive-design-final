@@ -886,12 +886,13 @@ button, label {
   height:50%;
   width:100%;
   margin:2%;
+  margin-bottom:20%;
 }
 #fast-facts{
   width:40%;
   height:60%;
   margin:auto;
-  font-size:100%;
+  font-size:90%;
   float:right;
   text-align:right;
   background-color:#FEFCF8;
@@ -903,8 +904,9 @@ button, label {
   margin-left: 4%;
   margin-bottom: 4%;
 }
-#fast-facts p, h3 {
+#fast-facts p,h3 {
   margin:0px;
+  font-size:95%;
 }
 #message-section{
   width:90%;
