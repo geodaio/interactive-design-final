@@ -25,6 +25,25 @@ onload = function checkSign(){
 	    }
 	  }
 	}
+	else if (window.location.href == "https://geodaio.github.io/interactive-design-final/hub.html") {
+		console.log("test");
+	  var allCookies = document.cookie;
+	
+	  var splitCookies = allCookies.split(";");
+	
+	  for (var c = 0; c<=splitCookies.length; c++){
+	    var cleanCookie;
+	    if (c != splitCookies.length){
+	      cleanCookie = splitCookies[c].trim();
+	    }
+	    var cleanerCookie = cleanCookie.split("=");
+	    console.log(cleanerCookie);
+	    if (cleanerCookie[c] === "true") {
+	        window.location.assign("https://geodaio.github.io/interactive-design-final/hub-login.html");
+		console.log("loggedin2");
+	    }
+	  }
+	}
 };
 function signIn() {
 	event.preventDefault();
