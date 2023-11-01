@@ -188,7 +188,7 @@ color: #FEFCF8;
 cursor: pointer;
 }
 
-.studynest #form {
+.studyhub #form {
   overflow-y: hidden;
   margin-top: 16px;
   text-align: left;
@@ -200,7 +200,7 @@ cursor: pointer;
   background: white;
       }
 
-.studynest input {
+.studyhub input {
         all: unset;
         font: 16px system-ui;
         color: green;
