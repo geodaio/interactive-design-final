@@ -476,15 +476,16 @@ nav .header-left a{
   max-width:60%;
   display:inherit;
   position:relative;
+  /*?*/
+  top:-14%;
 }
-
 #profile-header {
   width:40%;
   float:right;
   display:inherit;
   flex-direction:inherit;
-  padding-right:1%;
-  padding-top:1%;
+  position:relative;
+  top:-14%;
 }
 #profile-pic-header {
   max-width:100%;
@@ -499,6 +500,7 @@ nav .header-left a{
   background-color:#FEFCF8; 
   border-color:#FEFCF8;
   border-style:solid;
+  top:-14%;
 }
 #notification-bell-img{
   max-width:80%;
