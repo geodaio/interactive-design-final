@@ -335,7 +335,7 @@ footer .content .link-boxes{width:100%;display:flex;justify-content: space-betwe
 
 /* Homepage*/
 /*Abi Code */
-header {
+#header-out {
   background-color: #FEFCF8;
   font-size: 1em;
   float:left;
@@ -345,6 +345,13 @@ header {
   height: 72px;
   padding-bottom: 40px;
   border-bottom: 1px solid black;
+}
+#header-in {
+  font-size: 1em;
+  float:left;
+  margin:auto;
+  text-align:center;
+  width:100%;
 }
 header img {
   width:100%;
