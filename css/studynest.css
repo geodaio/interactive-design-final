@@ -479,9 +479,12 @@ nav .header-left a{
 }
 
 #profile-header {
-  max-width:40%;
+  width:40%;
+  float:right;
   display:inherit;
-  position:relative;
+  flex-direction:inherit;
+  padding-right:1%;
+  padding-top:1%;
 }
 #profile-pic-header {
   max-width:100%;
@@ -493,6 +496,8 @@ nav .header-left a{
   width:10%;
   display:inherit;
   position:relative;
+  background-color:#FEFCF8; 
+  border-color:#FEFCF8;
   border-style:solid;
 }
 #notification-bell-img{
@@ -500,7 +505,8 @@ nav .header-left a{
   display:inherit;
   position:relative;
   margin:auto;
-  border-style:solid;
+  background-color:#FEFCF8; 
+  border-style:none;
 }
 .intro-sect-left {
   width:60%;
