@@ -354,6 +354,9 @@ header img {
   margin-top:0px;
   margin-bottom:0px;
 }
+#body #header-logo{
+ max-width:10%;
+}
 #header-logo, #header-logo2{
   max-width:48%;
 }
